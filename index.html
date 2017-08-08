@@ -2,39 +2,21 @@
 <html>
 	<head>
 		<title>Hermione!</title>
-		<!-- TODO #1
-		To include a javascript file into the webpage, so it's accessible, we need to set the "src" attribute
-		of the script element to the .js file in the directory. Since it's in the same directory, there's no need
-		to include the full file path. You won't notice any changes until TODO #3. 
-		 -->
-		<script></script>
-		<!-- TODO #2
-		Now we need to include the stylesheet 'styles.css', which will help out the look-and-feel of the page.
-		Try setting the src attribute of the link tag to link the file. You should now see some changes if you
-		refresh the page.
-		 -->
-		<link rel="stylesheet" type="text/css" />
+		<script src="demo.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
 	</head>
 	<body>
 
 	<div class="inner-container">
 		<div class="header">
-			<!-- TODO #3 
-				There's an included javascript file that has a function called swapPicture() that
-				will programmatically cycle through the 3 pictures we have in the project.
-				Element have an onclick properly that can be used to trigger javascript. 
-				Try calling swapPicture from the onclick attribute.
-			-->
-			<img id="hermione-image" src="hermione1.jpg" width="200" />
-			<!-- TODO #4: Let's wrap this with a header (h1) tag, which is typically the most emphasized element on the page -->
-			Hermione Granger
-			<!-- TODO #5: Let's now wrap this one in an h2 tag, so it's a subtitle, but still important 
-			Look for TODO #6 in styles.css-->
-			Magic Extraordinaire
+			<img id="hermione-image" src="hermione1.jpg" width="200" onclick="swapPicture()" />
+			<h1>Hermione Granger</h1>
+			<h2>Magic Extraordinaire</h2>
 		</div>
 		
 		<article>
 			<section>
+							<!-- TODO #1: Let's change the text below. Save this file and reload the page -->
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus dapibus, ultricies felis vel, accumsan nulla. Duis vitae lectus et sem facilisis ullamcorper ac eu metus. Nam euismod imperdiet pretium. Donec vitae arcu at arcu ultricies vehicula. Curabitur rhoncus bibendum erat sit amet euismod. Vestibulum nunc felis, luctus at porta non, efficitur sit amet ligula. Phasellus aliquet lacus sit amet risus semper, et tincidunt tortor lobortis. Phasellus non eros ac metus interdum laoreet. 
 
 				Ut risus nulla, imperdiet in est in, condimentum blandit massa. Ut eget volutpat justo, eu bibendum sapien. Donec ex odio, hendrerit id tempus ac, luctus quis purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis nulla felis, aliquet iaculis placerat quis, sodales lacinia lorem. Integer pharetra pretium arcu, quis tempus neque feugiat rutrum. Ut non lorem quis magna blandit placerat ut a justo. In pellentesque lobortis est sed efficitur.
@@ -46,6 +28,7 @@
 			</section>
 		</article>
 		<div class="footer">
+<!--TODO #2: Update the Footer content -->
 			&copy; 2017. No Rights Reserved.
 		</div>
 	</div>

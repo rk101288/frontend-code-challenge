@@ -8,27 +8,17 @@
 		to include the full file path. You won't notice any changes until TODO #3. 
 		 -->
 		<script></script>
-		<!-- TODO #2
-		Now we need to include the stylesheet 'styles.css', which will help out the look-and-feel of the page.
-		Try setting the src attribute of the link tag to link the file. You should now see some changes if you
-		refresh the page.
 		 -->
-		<link rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
 	</head>
 	<body>
 
 	<div class="inner-container">
 		<div class="header">
-			<!-- TODO #3 
-				There's an included javascript file that has a function called swapPicture() that
-				will programmatically cycle through the 3 pictures we have in the project.
-				Element have an onclick properly that can be used to trigger javascript. 
-				Try calling swapPicture from the onclick attribute.
-			-->
-			<img id="hermione-image" src="hermione1.jpg" width="200" />
-			<!-- TODO #4: Let's wrap this with a header (h1) tag, which is typically the most emphasized element on the page -->
+			<img id="hermione-image" src="hermione1.jpg" width="200" onClick="swapPicture()"/>
+			<!-- TODO #2: Let's wrap this with a header (h1) tag, which is typically the most emphasized element on the page -->
 			Hermione Granger
-			<!-- TODO #5: Let's now wrap this one in an h2 tag, so it's a subtitle, but still important 
+			<!-- TODO #3: Let's now wrap this one in an h2 tag, so it's a subtitle, but still important 
 			Look for TODO #6 in styles.css-->
 			Magic Extraordinaire
 		</div>

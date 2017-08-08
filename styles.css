@@ -1,5 +1,5 @@
 body {
-	/* TODO #6: Let's add a background-color that will be used outside of the main content area.
+	/* TODO #4: Let's add a background-color that will be used outside of the main content area.
 	You can set the value a few different ways.
 	With predefined constants (https://www.w3schools.com/colors/colors_names.asp)
 		background-color: darkgreen;  
@@ -25,19 +25,6 @@ img {
 	margin: 10px;	
 }
 
-/*
-TODO #7: We've decided that the 2 paragraphs on the screen are actually going to be short articles/updates.
-We'd like to see them side-by-side. There's a property called float that can take the values of either 
-left or right. The elements will start on one of those sides and lay down like tiles as long as there's space for it.
-If there's too little space remaining to fit the next element, it'll go down and then continue;
-
-You can add either float: left or float: right. Can you see the difference between the two? Try switching
-it and refreshing the webpage.
-
-In order to get them to display side-by-side, let's make the width of the section element 50%. 
-
-Look for the final TODO #8 in demo.js
-*/
 section {
 	box-sizing: border-box;
 	padding: 15px 30px;
@@ -55,6 +42,7 @@ section {
 	text-align: center;
 }
 
+/* TODO #5: set the font-style to italic*/
 .name-title {
 	font-weight: bold;
 	font-size: 18pt;

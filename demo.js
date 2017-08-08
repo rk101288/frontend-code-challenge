@@ -8,8 +8,9 @@ function swapPicture() {
 	var match = regex.exec(currentImage.src.substring(currentImage.src.lastIndexOf("/")));  
 	var currentIndex = match[1];
 	currentIndex++;
-	if(currentIndex > 3) {
-		currentIndex = 1;
-	}
+
+	//TODO #8
+	// It seems clicking on the image more than a few times causes it to disappear!
+	// If the currentIndex is greater than 3, lets reset it to 1;
 	currentImage.src = prefix + currentIndex + suffix;
 }

@@ -1,0 +1,50 @@
+body {
+	background-color: darkgreen;
+}
+
+h1 {
+	font-size: 18pt;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 14pt;
+	font-style: italic;
+}
+
+img {
+	margin: 10px;	
+}
+
+section {
+	box-sizing: border-box;
+	padding: 15px 30px;
+	width: 50%;
+	float: left;
+}
+
+.inner-container {
+	width: 60%;
+	margin: 0px auto;
+	background-color: white;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+.header {
+	text-align: center;
+}
+
+.name-title {
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	font-size: 8pt;
+	padding: 5px;
+}
+
